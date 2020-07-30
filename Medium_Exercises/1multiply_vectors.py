@@ -3,7 +3,7 @@ y = [2, 3, 6]
 
 i = 0
 vector_sum = []
-while i < len(x):
-    vector_sum[i] = x[i] * y[i]
-    i += 1
+for i in range (len(x)):
+    vector_sum.append(x[i] * y[i])
+
 print(vector_sum)
